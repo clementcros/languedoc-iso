@@ -10,7 +10,7 @@
 				<div class="user-panel">
 					<div class="pull-left info">
 						<p><?php echo $user['full_name']; ?></p>
-						<a href="<?php echo site_url('account'); ?>"><i class="fa fa-circle text-success"></i> Online</a>
+						<a href="<?php echo site_url('account'); ?>"><i class="fa fa-circle text-success"></i> En ligne</a>
 					</div>
 				</div>
 				<?php $this->load->view('_partial/menu'); ?>

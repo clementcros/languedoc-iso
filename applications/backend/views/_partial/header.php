@@ -1,6 +1,6 @@
 
 <header class="main-header">
-	<a href="<?php echo site_url(); ?>" class="logo"><b>Backend System</b></a>
+	<a href="<?php echo site_url(); ?>" class="logo"><b>Administration</b></a>
 	<nav class="navbar navbar-static-top" role="navigation">
 		<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
 			<span class="sr-only">Toggle navigation</span>
@@ -20,10 +20,10 @@
 						</li>
 						<li class="user-footer">
 							<div class="pull-left">
-								<a href="<?php echo site_url('account'); ?>" class="btn btn-default btn-flat">Account</a>
+								<a href="<?php echo site_url('account'); ?>" class="btn btn-default btn-flat">Compte</a>
 							</div>
 							<div class="pull-right">
-								<a href="<?php echo site_url('account/logout'); ?>" class="btn btn-default btn-flat">Sign out</a>
+								<a href="<?php echo site_url('account/logout'); ?>" class="btn btn-default btn-flat">Déconnexion</a>
 							</div>
 						</li>
 					</ul>

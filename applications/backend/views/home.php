@@ -3,9 +3,9 @@
 
 	<div class="col-md-4">
 
-		<?php echo box_open('Welcome!'); ?>
-			<p>Demonstration of box_open() and box_close() helper functions.</p>
-		<?php echo box_close('Box footer here'); ?>
+		<?php echo box_open('Bienvenue').$user['full_name']; ?>
+			
+		<?php echo box_close(''); ?>
 
 		<?php echo box_open('Shortcuts'); ?>
 			<p>Demonstration of app_btn() helper functions.</p>

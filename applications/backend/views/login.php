@@ -1,11 +1,12 @@
 
 <div class="login-box">
-
-	<div class="login-logo"><b>Backend System</b></div>
+	<div class="login-logo"><a href="https://www.hostingpics.net/viewer.php?id=840936logo.png"><img src="https://img4.hostingpics.net/thumbs/mini_840936logo.png" alt="Heberger image" /></a></div>
+	<div class="login-logo"><b>Administration</b></div>
+	
 
 	<div class="login-box-body">
 		<?php echo alert_box(); ?>
-		<p class="login-box-msg">Sign in to start your session</p>
+		<p class="login-box-msg">Interface Administrateur Languedoc-isolation</p>
 		<form action="<?php echo site_url('login'); ?>" method="POST">
 			<div class="form-group has-feedback">
 				<input type="text" class="form-control" name="username" placeholder="Username" value="<?php if (ENVIRONMENT=='development') echo 'admin'; ?>" />
